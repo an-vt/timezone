@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Watch shop | eCommers</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="index.html">Trang chủ</a></li>
+                                    <li><a href="shop.html">Gian hàng</a></li>
+                                    <li><a href="about.html">Chúng tôi</a></li>
+                                    <li class="hot"><a href="#">Mới nhất</a>
+                                        <ul class="submenu">
+                                            <li><a href="shop.html"> Product list</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="blog.html">Bài viết</a>
+                                        <ul class="submenu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Liên hệ</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header Right -->
+                        <div class="header-right">
+                            <ul>
+                                <li class="account-list">
+                                    <span class="flaticon-user"></span>
+                                    <div class="account-menu">
+                                        <a href="./login.html" id="account-login" class="account-login active">Đăng
+                                            nhập</a>
+
+                                        <a id="account-logout" class="account-logout">Đăng xuất</a>
+                                    </div>
+                                </li>
+                                <li><a href="cart.html"><span class="flaticon-shopping-cart"></span></a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main>
+        <!-- Hero Area Start-->
+        <div class="slider-area ">
+            <div class="single-slider slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap text-center">
+                                <h2>Đăng Nhập</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Area End-->
+        <!--================login_part Area =================-->
+        <section class="login_part section_padding ">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="login_part_text text-center">
+                            <div class="login_part_text_iner">
+                                <h2>Bạn chưa có tài khoản?</h2>
+                                <p>Click vào đây để đăng kí</p>
+                                <a id="link-register" href="#" class="btn_3">Tạo tài khoản</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <form id="login_part_form" class="login_part_form active">
+                            <div class="login_part_form_iner">
+                                <h3>Chào mừng bạn đã trở lại ! <br>
+                                    Đăng nhập ngay</h3>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="text" class="form-control" id="username" name="username" value=""
+                                        placeholder="Tài khoản">
+                                    <span class="form-message"></span>
+                                </div>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="password" class="form-control" id="password" name="password" value=""
+                                        placeholder="Mật khẩu">
+                                    <span class="form-message"></span>
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <button class="btn_3">Đăng nhập</button>
+                                </div>
+                            </div>
+                        </form>
+                        <form id="register_part_form" class="register_part_form">
+                            <div class="login_part_form_iner">
+                                <h3 id="register-heading">Đăng kí</h3>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="text" class="form-control" id="name" name="name" value=""
+                                        placeholder="Họ tên">
+                                    <span class="form-message"></span>
+                                </div>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="text" class="form-control" id="username" name="username" value=""
+                                        placeholder="Tài khoản">
+                                    <span class="form-message"></span>
+                                </div>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="password" class="form-control" id="password" name="password" value=""
+                                        placeholder="Mật khẩu">
+                                    <span class="form-message"></span>
+                                </div>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="password" class="form-control" id="password_confirmation"
+                                        name="password_confirmation" value="" placeholder="Xác nhận mật khẩu">
+                                    <span class="form-message"></span>
+                                </div>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="text" class="form-control" id="address" name="address" value=""
+                                        placeholder="Địa chỉ">
+                                    <span class="form-message"></span>
+                                </div>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="text" class="form-control" id="phone" name="phone" value=""
+                                        placeholder="Số điện thoại">
+                                    <span class="form-message"></span>
+                                </div>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="email" class="form-control" id="email" name="email" value=""
+                                        placeholder="Email">
+                                    <span class="form-message"></span>
+                                </div>
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="file" class="form-control" id="avatar" name="avatar">
+                                    <span class="form-message"></span>
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <button class="btn_3">Đăng kí</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================login_part end =================-->
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p>Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do
+                                            eiusmod tem.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#"> Offers & Discounts</a></li>
+                                    <li><a href="#"> Get Coupon</a></li>
+                                    <li><a href="#"> Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>New Products</h4>
+                                <ul>
+                                    <li><a href="#">Woman Cloth</a></li>
+                                    <li><a href="#">Fashion Accessories</a></li>
+                                    <li><a href="#"> Man Accessories</a></li>
+                                    <li><a href="#"> Rubber made Toys</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li><a href="#">Frequently Asked Questions</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Report a Payment Issue</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="row align-items-center">
+                    <div class="col-xl-7 col-lg-8 col-md-7">
+                        <div class="footer-copy-right">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                                template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a
+                                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-4 col-md-5">
+                        <div class="footer-copy-right f-right">
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!--? Search model Begin -->
+    <div class="search-model-box">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-btn">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Searching key.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- JS here -->
+    <script src="./assets/js/Login.js"></script>
+    <script>
+        // Mong muốn của chúng ta
+        Validator({
+            form: '#register_part_form',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#name'),
+                Validator.minLength('#username', 6),
+                Validator.minLength('#password', 6),
+                Validator.isRequired('#password_confirmation'),
+                Validator.isConfirmed('#password_confirmation', function () {
+                    return document.querySelector('#register_part_form #password').value;
+                }, 'Mật khẩu nhập lại không chính xác'),
+                Validator.isRequired('#address'),
+                Validator.isRequired('#phone'),
+                Validator.isEmail('#email'),
+                Validator.isRequired('#avatar'),
+            ],
+            onSubmit: async function (data) {
+                console.log('click')
+                console.log(data)
+                // console.log(data.name)
+                // console.log([data.avatar])
+                // Call API
+                var formdata = new FormData();
+                // formdata.append(data);
+                formdata.append("name", data.name);
+                formdata.append("username", data.username);
+                formdata.append("password", data.password);
+                formdata.append("address", data.address);
+                formdata.append("phone", data.phone);
+                formdata.append("email", data.email);
+                formdata.append("avatar", data.avatar);
+
+                var requestOptions = {
+                    method: 'POST',
+                    body: formdata,
+                    redirect: 'follow'
+                };
+
+                try {
+                    let response = await fetch("http://localhost:4000/api/user/register", requestOptions)
+                    if(response.ok) {
+                        let result = await response.json()
+                        console.log(result)
+                        alert('Đăng kí thành công')
+                    }
+                } catch (error) {
+                    console.log(error)
+                    alert('Đăng kí thất bại')
+                }
+            }
+        });
+
+        Validator({
+            form: '#login_part_form',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.minLength('#username', 6),
+                Validator.minLength('#password', 6),
+            ],
+            onSubmit: async function (data) {
+                console.log('click')
+                // Call API
+                var myHeaders = new Headers();
+                myHeaders.append("Content-Type", "application/json");
+
+                var raw = JSON.stringify(data);
+
+                var requestOptions = {
+                    method: 'POST',
+                    headers: myHeaders,
+                    body: raw,
+                    redirect: 'follow'
+                };
+
+                try {
+                    let response = await fetch("http://localhost:4000/api/login", requestOptions)
+                    if (response.ok) {
+                        let result = await response.json()
+                        console.log(result)
+                        localStorage.setItem('accessToken', result.accessToken)
+                        //lấy trang trước khi bấm sang đăng nhập
+                        let prevUrl = document.referrer
+                        if (prevUrl.includes('cart.html')) {
+                            window.location.href = './checkout.html'
+                        } else {
+                            window.location.href = './index.html'
+                        }
+                    }
+                    if(response.status == 400) {
+                        alert('Tài khoản của bạn bị vô hiệu hóa')
+                    }
+                    if(response.status == 401) {
+                        alert('Tài khoản hoặc mật khẩu không chính xác')
+                    }
+                } catch (error) {
+                    console.log('error ', error)
+                }
+            }
+        });
+    </script>
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/common/popper.min.js"></script>
+    <script src="./assets/js/common/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/common/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/common/owl.carousel.min.js"></script>
+    <script src="./assets/js/common/slick.min.js"></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/common/wow.min.js"></script>
+    <script src="./assets/js/common/animated.headline.js"></script>
+
+    <!-- Scroll up, nice-select, sticky -->
+    <script src="./assets/js/common/jquery.scrollUp.min.js"></script>
+    <script src="./assets/js/common/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/common/jquery.sticky.js"></script>
+    <script src="./assets/js/common/jquery.magnific-popup.js"></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/common/contact.js"></script>
+    <script src="./assets/js/common/jquery.form.js"></script>
+    <script src="./assets/js/common/jquery.validate.min.js"></script>
+    <script src="./assets/js/common/mail-script.js"></script>
+    <script src="./assets/js/common/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/common/plugins.js"></script>
+    <script src="./assets/js/common/main.js"></script>
+
+</body>
+
+</html>
